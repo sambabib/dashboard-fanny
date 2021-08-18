@@ -1,0 +1,44 @@
+.home {
+  flex: 8;
+  margin: 4rem 9.5rem;
+}
+
+.home__title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__add {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.home__add span {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.home p {
+  margin-bottom: 1.3rem;
+  margin-left: 20px;
+  font-size: 0.7rem;
+  color: gray;
+  padding: 0.4rem 0;
+  font-weight: 600;
+}
+
+.home__widgets {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 40px;
+}

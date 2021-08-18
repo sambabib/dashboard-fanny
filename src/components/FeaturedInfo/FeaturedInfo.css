@@ -1,0 +1,130 @@
+.featuredinfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.featuredinfo__card {
+  width: 260px;
+  height: 240px;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 9px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.featuredinfo__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featuredinfo__title h3 {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.featuredinfo-piechart__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.piechart__container {
+  width: 150px;
+}
+
+.featuredinfo-piechart__sent,
+.featuredinfo-piechart__received {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.featuredinfo-piechart__info {
+  margin-top: 20px;
+}
+
+.featuredinfo-piechart__text span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.featuredinfo-piechart__text h3 {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.featuredinfo-piechart__text p {
+  font-weight: 900 !important;
+  margin-left: 0.8rem !important;
+}
+
+.featuredinfo__week {
+  display: flex;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}
+
+.featuredinfo__doubleCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.featuredinfo-doubleCard__earnings,
+.featuredinfo-doubleCard__clients {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  width: 260px;
+  height: 110px;
+  border-radius: 9px;
+  padding: 0 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+
+.featuredinfo-doubleCard__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(210, 210, 245);
+}
+
+.featuredinfo-doubleCard__icon.user {
+  background: rgb(202, 236, 202);
+}
+
+.featuredinfo-doubleCard__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.4rem;
+}
+
+.featuredinfo-doubleCard__number {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 900;
+}
+
+.featuredinfo-doubleCard__text {
+  color: gray;
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.featuredinfo-doubleCard__menu {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  cursor: pointer;
+}
