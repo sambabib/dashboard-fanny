@@ -1,42 +1,6 @@
 import { BarChart, Bar, XAxis, ResponsiveContainer } from 'recharts';
 
-const data = [
-  {
-    name: 'M',
-    uv: 50,
-    pv: 100,
-  },
-  {
-    name: 'T',
-    uv: 80,
-    pv: 150,
-  },
-  {
-    name: 'W',
-    uv: 69,
-    pv: 200,
-  },
-  {
-    name: 'T',
-    uv: 46,
-    pv: 110,
-  },
-  {
-    name: 'F',
-    uv: 88,
-    pv: 205,
-  },
-  {
-    name: 'S',
-    uv: 79,
-    pv: 91,
-  },
-  {
-    name: 'S',
-    uv: 72,
-    pv: 300,
-  },
-];
+import { barData as data } from '../../data';
 
 const Barchart = () => {
   return (

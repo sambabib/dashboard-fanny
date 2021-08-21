@@ -32,6 +32,7 @@
   font-size: 0.7rem;
   padding: 6px 8px;
   outline: none;
+  font-weight: 600;
 }
 
 .topbar__logo {

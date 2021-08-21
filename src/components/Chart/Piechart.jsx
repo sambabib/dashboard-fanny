@@ -1,22 +1,6 @@
 import { RadialBarChart, RadialBar, ResponsiveContainer } from 'recharts';
 
-const data = [
-  {
-    name: 'Sent',
-    uv: 11.8,
-    fill: '#75E6DA',
-  },
-  {
-    name: '25-29',
-    uv: 18.69,
-    fill: '#fff',
-  },
-  {
-    name: '25-29',
-    uv: 14.69,
-    fill: 'blue',
-  },
-];
+import { pieData as data } from '../../data'
 
 const Piechart = () => {
   return (
