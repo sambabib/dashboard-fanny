@@ -2,3 +2,160 @@
   flex: 8;
   margin: 4rem 9.5rem;
 }
+
+.user__titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user__title {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.user__addButton {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: blue;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.user__container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.user__show {
+  flex: 3;
+  padding: 40px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-right: 20px;
+}
+
+.user__update {
+  flex: 5;
+  padding: 40px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user-update__title {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.user-show__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.user-show__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-show__topTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.user-show__username {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.user-show__userTitle {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.user-show__bottom {
+  margin-right: 20px;
+}
+
+.user-show__bottomTitle {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgb(175, 170, 170);
+}
+
+.user-show__bottomInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.user-show__infoTitle {
+  margin-left: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.user-update__form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.user-update__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.user-update__item > label {
+  margin-bottom: 5px;
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+.user-update__input {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.user-update__item > input::placeholder {
+    font-size: .7rem;
+}
+
+.user-update__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-update__upload {
+  display: flex;
+  align-items: center;
+}
+
+.user-update__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.user-update__button {
+  border-radius: 6px;
+  border: 1px solid blue;
+  padding: 8px 16px;
+  cursor: pointer;
+  background: white;
+  color: blue;
+  font-weight: 700;
+  font-size: .7rem;
+}
