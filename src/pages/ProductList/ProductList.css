@@ -1,0 +1,36 @@
+.productlist {
+  flex: 8;
+  margin: 4rem 9.5rem;
+}
+
+.productlist__item {
+    display: flex;
+    align-items: center;
+}
+
+.productlist__img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.productlist__edit {
+    border: none;
+    border-radius: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.productlist__delete {
+    color: red;
+    cursor: pointer;
+}
+
+.productlist__datagrid {
+    font-size: .75rem !important;
+  }

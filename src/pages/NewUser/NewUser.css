@@ -1,0 +1,74 @@
+.newuser {
+  flex: 8;
+  margin: 4rem 9.5rem;
+}
+
+.newuser__title {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.newuser__form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.newuser__item {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newuser__item > label {
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgb(151, 150, 150);
+}
+
+.newuser__item > input {
+  padding: 12px 18px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.newuser__item > input::placeholder {
+  font-size: 0.7rem;
+}
+
+.newuser__gender > input {
+  margin-top: 15px;
+}
+
+.newuser__gender > label {
+  margin: 10px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.newuser__select {
+  padding: 12px 18px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.newuser__item > select {
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.newuser__button {
+  border: none;
+  background: blue;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 700;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 0.7rem;
+}

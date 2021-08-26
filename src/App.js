@@ -8,6 +8,8 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Home from './pages/Home/Home';
 import UserList from './pages/UserList/UserList';
 import User from './pages/User/User';
+import NewUser from './pages/NewUser/NewUser';
+import ProductList from './pages/ProductList/ProductList';
 
 // @style
 import './App.css';
@@ -27,6 +29,12 @@ function App() {
           </Route>
           <Route exact path='/user/:id'>
             <User />
+          </Route>
+          <Route exact path='/newUser'>
+            <NewUser />
+          </Route>
+          <Route exact path='/products'>
+            <ProductList />
           </Route>
         </Switch>
       </div>

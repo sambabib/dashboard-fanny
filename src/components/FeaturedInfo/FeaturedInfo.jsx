@@ -28,7 +28,7 @@ const FeaturedInfo = () => {
           <div className='piechart__container'>
             <Piechart />
           </div>
-          
+
           <div className='featuredinfo-piechart__info'>
             <div className='featuredinfo-piechart__text'>
               <div className='featuredinfo-piechart__sent'>
@@ -81,8 +81,23 @@ const FeaturedInfo = () => {
           </span>
         </div>
 
-        <div className='featuredinfo-doubleCard__clients'>
+        {/* <div className='featuredinfo-doubleCard__earnings'>
           <span className='featuredinfo-doubleCard__icon user'>
+            <VerifiedUserRounded style={{ fontSize: '1.2rem', color: 'green' }} />
+          </span>
+          <div className='featuredinfo-doubleCard__info'>
+            <span className='featuredinfo-doubleCard__number'>$4,280</span>
+            <span className='featuredinfo-doubleCard__text'>
+              Earned this month
+            </span>
+          </div>
+          <span className='featuredinfo-doubleCard__menu'>
+            <MoreHorizRounded style={{ color: 'gray', fontSize: '.9rem' }} />
+          </span>
+        </div> */}
+
+        <div className='featuredinfo-doubleCard__clients'>
+          <span className='featuredinfo-doubleCard__icon userdeets'>
             <VerifiedUserRounded
               style={{ fontSize: '1.2rem', color: 'green' }}
             />
