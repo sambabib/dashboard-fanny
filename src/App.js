@@ -10,6 +10,7 @@ import UserList from './pages/UserList/UserList';
 import User from './pages/User/User';
 import NewUser from './pages/NewUser/NewUser';
 import ProductList from './pages/ProductList/ProductList';
+import IsMobile from './components/IsMobile/IsMobile';
 
 // @hooks
 import useWindowDimensions from './hooks/useWindowDimensions';
@@ -21,8 +22,8 @@ function App() {
   const { width } = useWindowDimensions();
   return (
     <>
-      {width <= 769 ? (
-        <div>some component</div>
+      {width <= 990 ? (
+        <IsMobile />
       ) : (
         <Router>
           <Topbar />

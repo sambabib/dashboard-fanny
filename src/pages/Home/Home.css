@@ -51,3 +51,11 @@
     margin: 4rem;
   }
 }
+
+@media (max-width: 1040px) {
+  .home {
+    width: 750px !important;
+    flex: 5;
+    margin: 4rem 2rem;
+  }
+}
