@@ -20,7 +20,7 @@ const WidgetLg = () => {
         </tr>
 
         {widgetlg.map((item) => (
-          <tr className='widgetlg__tr'>
+          <tr className='widgetlg__tr' key={item.name}>
             <td className='widgetlg__user'>
               <img
                 src={item.img}

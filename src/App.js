@@ -11,34 +11,44 @@ import User from './pages/User/User';
 import NewUser from './pages/NewUser/NewUser';
 import ProductList from './pages/ProductList/ProductList';
 
+// @hooks
+import useWindowDimensions from './hooks/useWindowDimensions';
+
 // @style
 import './App.css';
 
 function App() {
+  const { width } = useWindowDimensions();
   return (
-    <Router>
-      <Topbar />
-      <div className='container'>
-        <Sidebar />
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route exact path='/users'>
-            <UserList />
-          </Route>
-          <Route exact path='/user/:id'>
-            <User />
-          </Route>
-          <Route exact path='/newUser'>
-            <NewUser />
-          </Route>
-          <Route exact path='/products'>
-            <ProductList />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <>
+      {width <= 769 ? (
+        <div>some component</div>
+      ) : (
+        <Router>
+          <Topbar />
+          <div className='container'>
+            <Sidebar />
+            <Switch>
+              <Route exact path='/'>
+                <Home />
+              </Route>
+              <Route exact path='/users'>
+                <UserList />
+              </Route>
+              <Route exact path='/user/:id'>
+                <User />
+              </Route>
+              <Route exact path='/newUser'>
+                <NewUser />
+              </Route>
+              <Route exact path='/products'>
+                <ProductList />
+              </Route>
+            </Switch>
+          </div>
+        </Router>
+      )}
+    </>
   );
 }
 

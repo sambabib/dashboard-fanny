@@ -110,24 +110,6 @@ export const pieData = [
   },
 ];
 
-export const productData = [
-  {
-    name: 'Jan',
-    sales: 4000,
-    fill: '#75E6DA',
-  },
-  {
-    name: 'Feb',
-    sales: 3000,
-    fill: '#fff',
-  },
-  {
-    name: 'Mar',
-    sales: 5000,
-    fill: 'blue',
-  },
-];
-
 export const userRows = [
   {
     id: 1,

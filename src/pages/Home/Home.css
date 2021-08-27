@@ -42,3 +42,12 @@
   margin-left: 20px;
   margin-top: 40px;
 }
+
+/* media queries */
+@media (max-width: 1240px) {
+  .home {
+    width: 850px !important;
+    flex: 5;
+    margin: 4rem;
+  }
+}

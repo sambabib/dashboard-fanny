@@ -44,3 +44,12 @@
 .sidebar__listItem:hover {
   color: blue;
 }
+
+.active {
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
